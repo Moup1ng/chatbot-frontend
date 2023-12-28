@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600&family=Nunito:wght@400;500&display=swap");
+
+* {
+  font-family: 'Noto Serif KR', serif;
+  font-family: 'Nunito', sans-serif;
+}
+
+.messages-popup-tacking {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242424;
+}
+
+.order-list {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: 1px solid #e3e8edcc;
+}
+
+.order-item {
+  width: 100%;
+  border-bottom: 1px solid #e3e8edcc;
+}
+
+.order-item-border {
+  display: grid;
+  grid-template-columns: auto 2fr;
+  align-items: center;
+}
+
+.menu-order {
+  height: auto;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 5px;
+}
+
+.order-date {
+  font-size: 10px;
+  font-weight: 500;
+  color: #8899A8;
+}
+
+.order-number {
+  font-size: 10px;
+  font-weight: 500;
+  color: #8899A8;
+}
+
+.product-name {
+  color: #333333;
+  font-size: 12px;
+  font-weight: 500;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.product-price {
+  color: #333333;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.flex-card-text {
+  display: flex;
+  /* Use Flexbox */
+  flex-direction: column;
+  /* Stack children vertically */
+  height: 100%;
+  /* Take full height of the parent */
+  /* Add additional styling as per your needs */
+}
+
+.chat-btn {
+  font-family: "Noto Sans KR", sans-serif;
+  position: fixed;
+  bottom: 700px;
+  right: 200px;
+  text-align: center;
+  background: #06131e;
+  width: 90px;
+  height: 90px;
+  border-radius: 50% 50% 50% 20%;
+  cursor: pointer;
+}
+
+.text-btn-chat {
+  font-family: "Noto Sans KR", sans-serif;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10%;
+}
+
+.card-size-dialog {
+  height: 469px;
+  background: white;
+}
+
+.toolbar-navbar {
+  font-family: "Noto Sans KR", sans-serif;
+  background: #05141f;
+}
+
+/* eddit name-company font-size */
+.name-company {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+/* edit time-work font-size */
+.time-work {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  color: #ffffffcc;
+}
+
+.column-navbar {
+  padding-left: 20px;
+  width: 97%;
+}
+
+/* edit style column-navbar2 */
+.column-navbar2 {
+  margin-right: 20px;
+  width: 24px;
+  height: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.card-size-all {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: white;
+}
+
+.card-message-size {
+  background: white;
+  height: 100%;
+}
+
+.card-input-send-size {
+  background: white;
+  padding: 5px;
+  width: 100%;
+}
+
+.tryping {
+  padding: 4px 8px;
+}
+
+.column-size-send-msg {
+  padding: 5px;
+  border-radius: 10px;
+  height: 60px;
+  background: #f3f4f7;
+  border: 1px solid #e3e8ed;
+}
+
+.size-width-send {
+  padding-left: 20px;
+  width: 100%;
+}
+
+.input-message {
+  font-size: 14px;
+  font-weight: 500;
+  color: #8899A8;
+  width: 100%;
+  padding: 0 10px;
+  outline: none;
+}
+
+::placeholder {
+  font-size: 12px;
+}
+
+.text-send-active {
+  color: #3b454e;
+}
+
+/* edit .button-send  */
+.button-send {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  background: #8899a8;
+  padding: 5px;
+  width: 80px;
+  height: 42.35px;
+  margin-top: 3px;
+  border-radius: 10px;
+  color: white;
+}
+
+.button-send-active {
+  background-color: #3b454e;
+}
+
+.card-in-message {
+  padding: 10px;
+  flex-grow: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: white;
+}
+
+/* edit text-time-date-top */
+.text-time-date-top {
+  margin: 8px 0 30px 0;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+  color: #8899A8;
+}
+
+/* edit text-name-in-chat */
+.text-name-in-chat {
+  margin-left: 15px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #242424;
+}
+
+/* edit text-time-name */
+.text-time-name {
+  margin-left: 5px;
+  font-size: 10px;
+  font-weight: 500;
+  color: #8899A8;
+}
+
+.text-message-popup-auto {
+  font-size: 14px;
+  font-weight: 500;
+  color: #242424;
+  margin: 5px 12px;
+  background: #f3f4f7;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px 10px 10px 0px;
+  float: left;
+}
+
+.position-btn-chat {
+  margin-top: 15px;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.position-btn-chat1 {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.position-btn-Row2 {
+  margin-top: 0;
+}
+
+.showButtonsRow2 {
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* edit style .chat-btn-style*/
+.chat-btn-style {
+  background: white;
+  font-size: 12px;
+  font-weight: 500;
+  color: #333333;
+  padding: 6px 14px 6px 14px;
+  margin: 0 5px 5px 0;
+  border-radius: 20px;
+  border: 1px solid #e3e8edcc;
+  cursor: pointer;
+
+}
+
+/* edit style .chat-btn-style1*/
+.chat-btn-style1 {
+  background: white;
+  font-size: 12px;
+  font-weight: 500;
+  color: #333333;
+  padding: 6px 14px 6px 14px;
+  margin: 0 5px 5px 0;
+  border-radius: 20px;
+  border: 1px solid #e3e8edcc;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+textarea {
+  border: none;
+  overflow: auto;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+}
+
+.message-container {
+  width: 100%;
+  margin-bottom: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.customer-message {
+  font-size: 10px;
+  text-align: left;
+  border-radius: 10px 10px 10px 0px;
+}
+
+/* add style text-createdAt */
+.text-siteName {
+  color: #242424;
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* edit style text-createdAt */
+.text-createdAt {
+  margin-left: 10px;
+  color: #8899A8;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.agent-message {
+  color: #242424;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: right;
+  border-radius: 10px 10px 0px 10px;
+}
+
+.agent-message.left-align {
+  text-align: left;
+}
+
+.message-content {
+  padding: 5px 10px 5px 10px;
+  display: inline-block;
+  max-width: 100%;
+}

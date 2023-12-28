@@ -1,0 +1,39 @@
+{
+  "name": "chat-crm-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "@vue/eslint-config-prettier": "^8.0.0",
+    "@vueuse/core": "^10.4.1",
+    "axios": "^1.5.0",
+    "moment": "^2.29.4",
+    "roboto-fontface": "*",
+    "smooth-scrollbar": "^8.8.4",
+    "socket.io-client": "^4.7.2",
+    "vue": "^3.3.4",
+    "vue-axios": "^3.5.2",
+    "vue-router": "^4.0.3",
+    "vue-sweetalert2": "^5.0.5",
+    "vuetify": "^3.0.0-beta.0",
+    "vuex": "^4.0.0",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "vue-cli-plugin-vuetify": "~2.5.8",
+    "webpack-plugin-vuetify": "^2.0.0-alpha.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
